@@ -1,0 +1,107 @@
+body {
+	background-color:#fff9ed;
+	margin:0;
+}
+main{
+	margin-left: 10%;
+    margin-right: 10%;
+}
+footer{
+	background-color:#E3C88F;
+	padding: 14px;
+	height: 25%;
+}
+nav{
+	background-color:#E3C88F;
+	color:#ffffff;
+	font-size:40px;
+	width:100%;
+}
+h1 { 
+	text-align:center;
+	
+}
+h2 { 
+	font-size:40px;
+	text-shadow:2px 2px 5px #aaaaaa;
+	text-align:center;
+}
+*{
+	font-family:arial,sans-serif;
+	margin: 0;
+}
+h3:not(.menosesse){ 
+	
+	font-size:30px;
+	text-shadow:2px 2px 5px #aaaaaa;
+	background-color:#6c3c0c;
+	color:#ffffff;
+	text-align:center;
+	border-radius:20px;
+}
+h3#sem {
+	background-color:#fff9ed;
+	text-align:center;
+	color:#000000;
+}
+p {
+    font-family:Times;
+	font-size:20px;	
+	text-align:justify;
+	text-align:center;
+
+}
+ul{
+	list-style-type:square;
+}
+li{
+	font-size:20px;
+	 font-family:Times;
+	 text-align:center;
+	 text-align:justify;
+}
+
+img:not(.imagens_lado_lado){
+	width: 15%;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+img.quebradores{
+	width:25%;
+}
+img.aumenta{
+	width:25%;
+}
+img.vai{
+	width:20%;
+}
+img.trindade{
+	width:20%;
+}
+#imagens_lado_lado{
+	display: flex;
+	justify-content: center;
+}
+a{
+	color:black;
+	text-decoration: none;
+	font-family:Times;
+	font-size:20px;	
+	text-align:justify;
+	text-align:center;
+}
+a:hover{
+	color: red;	
+}
+
+
+
+
+/*#imagem_centro{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}*/
+
